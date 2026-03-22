@@ -34,14 +34,14 @@ export default function Home() {
             <img
               src="https://avatars.githubusercontent.com/u/208907254?s=400"
               alt="Tom"
-              className="w-32 h-32 rounded-full object-cover border border-portfolio-accent"
+              className="w-32 h-32 rounded-full object-cover border border-white/5"
             />
 
             <h1 className="text-3xl font-bold text-white">Tom</h1>
 
             <p className="text-white/80 leading-relaxed">
-              Desenvolvedor focado em criar aplicações web modernas,
-              com atenção à desorganização e ao código bem estruturado.
+              Desenvolvedor focado em criar aplicações back-end modernas,
+              com ênfase em codigo limpo, organização e boas práticas de desenvolvimento.
             </p>
 
             <div className="flex gap-4 pt-4">
@@ -129,9 +129,9 @@ export default function Home() {
               />
 
               <p className="text-portfolio-grayish leading-relaxed">
-                Apaixonado por tecnologia, ingressei na área de desenvolvimento em 2023.
-                Atualmente, curso Análise e Desenvolvimento de Sistemas (ADS) e atuo como
-                estagiário em Backend.
+                Sempre tive grande interesse por tecnologia e iniciei minha jornada no desenvolvimento em 2024. 
+                Atualmente, curso Análise e Desenvolvimento de Sistemas (ADS) e atuo como desenvolvedor
+                back-end freelancer, buscando constantemente aprimorar minhas habilidades e construir soluções eficientes.
               </p>
 
               <p className="text-portfolio-grayish leading-relaxed">
