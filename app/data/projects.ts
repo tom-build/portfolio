@@ -25,4 +25,13 @@ export const projects: Project[] = [
     github: "https://github.com/tomzudo/SistemaBancario-BancoMaven.git",
     live: null,
   },
+  {
+    title: "Sistema Escolar",
+    description:
+      "Sistema de gestão escolar desenvolvido utilizando Python e SQLite, com gerenciamento de alunos, professores, turmas, notas, médias. Implementação de modelagem de banco de dados relacional, operações CRUD e aplicação de regras de negócio para controle acadêmico.  ",
+    image: "/images/bancomaven.png",
+    github: "https://github.com/tomzudo/SistemaBancario-BancoMaven.git",
+    live: null,
+  },
+
 ];

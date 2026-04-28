@@ -1,31 +1,33 @@
 import { projects } from "./data/projects"; 
 import { ProjectCard } from "./components/ProjectCard";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import tailwindConfig from "../tailwind.config";
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col font-sans">
 
       {/* ================= HERO ================= */}
-      <section className="relative bg-portfolio-hero px-6 py-32 overflow-hidden">
+      <section className="relative bg-portfolio-hero h-screen flex items-center justify-center">
 
         {/* OVERLAY TRANSLÚCIDO */}
         <div className="absolute inset-0 bg-black/1"></div>
 
         {/* GRADIENTE SUAVE */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/90 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/100 to-transparent"></div>
 
         {/* CONTEÚDO */}
         <div className="relative z-10 max-w-6xl mx-auto flex justify-center">
           <div
             className="
-              w-full max-w-md
-              rounded-3xl
-              bg-white/5
+              w-80 h-240
+              rounded-2xl
+              bg-portfolio-hero/10
               backdrop-blur-md
-              border border-white/5
-              shadow-xl shadow-black/20
-              p-12
-              flex flex-col items-center gap-6
+              shadow-xl shadow-black/16
+              px-0 py-18
+              pt-0 pb-6
+              flex flex-col items-center
               text-center
               text-portfolio-textLight
               transition-all duration-300
@@ -33,44 +35,32 @@ export default function Home() {
           >
             <img
               src="https://avatars.githubusercontent.com/u/208907254?s=400"
-              alt="Tom"
-              className="w-32 h-32 rounded-full object-cover border border-white/5"
+              alt="Erivelton Araújo"
+              className="w-80 h-80 rounded-full p-4"
             />
 
-            <h1 className="text-3xl font-bold text-white">Tom</h1>
+            <h1 className="font-sans text-4xl font-semibold text-white">Erivelton Araújo</h1>
 
-            <p className="text-white/80 leading-relaxed">
-              Desenvolvedor focado em criar aplicações back-end modernas,
-              com ênfase em codigo limpo, organização e boas práticas de desenvolvimento.
+
+            <p className="font-sans text-sm text-xl font-semibold text-white/80 pt-4">
+              Software developer
             </p>
 
-            <div className="flex gap-4 pt-4">
+            <div className="flex gap-4 pt-3">
               <a
-                href="https://github.com/seu-usuario"
+                href="https://github.com/tomzudo"
                 target="_blank"
-                className="
-                  px-6 py-3 rounded-xl
-                  bg-white/85
-                  text-portfolio-textLight
-                  font-semibold
-                  hover:opacity-90
-                  transition
-                "
               >
-                GitHub
+                <FaGithub className=" text-white/80 text-2xl" />
+       
               </a>
 
               <a
-                href="#about"
-                className="
-                  px-6 py-3 rounded-xl
-                  border border-white/20
-                  text-white
-                  hover:bg-white/5
-                  transition
-                "
+                href="https://www.linkedin.com/in/eriveltonarj/"
+                target="_blank"
               >
-                Sobre
+                <FaLinkedin className=" text-white/80 gap-4 text-2xl" />
+
               </a>
             </div>
           </div>
@@ -93,9 +83,9 @@ export default function Home() {
             <div className="shrink-0">
               <img
                 src="https://avatars.githubusercontent.com/u/208907254?s=400"
-                alt="Tom"
+                alt="Erivelton Araújo"
                 className="
-                  w-20 h-20
+                  w-32 h-32
                   rounded-full
                   object-cover
                   shadow-lg
@@ -128,15 +118,10 @@ export default function Home() {
                 "
               />
 
-              <p className="text-portfolio-grayish leading-relaxed">
+              <p className=" text-portfolio-grayish leading-relaxed">
                 Sempre tive grande interesse por tecnologia e iniciei minha jornada no desenvolvimento em 2024. 
-                Atualmente, curso Análise e Desenvolvimento de Sistemas (ADS) e atuo como desenvolvedor
-                back-end freelancer, buscando constantemente aprimorar minhas habilidades e construir soluções eficientes.
-              </p>
-
-              <p className="text-portfolio-grayish leading-relaxed">
-                Estou sempre em busca de oferecer as melhores experiências
-                em meus projetos e serviços.
+                Atualmente, curso Análise e Desenvolvimento de Sistemas (ADS) e atuo como desenvolvedor freelancer, buscando constantemente aprimorar minhas habilidades e construir soluções eficientes.
+                Desenvolvedor com experiência prática com desenvolvimento web, ênfase em codigo limpo, organização e boas práticas de desenvolvimento.
               </p>
             </div>
           </div>
@@ -149,7 +134,7 @@ export default function Home() {
         className="bg-portfolio-background px-6 py-16"
       >
         <div className="max-w-6xl mx-auto flex flex-col gap-12">
-          <h2 className="text-3xl font-bold text-portfolio-surface">
+          <h2 className="text-3xl font-bold text-portfolio-surface text">
             Projetos
           </h2>
 
