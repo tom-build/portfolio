@@ -11,10 +11,10 @@ module.exports = {
       },
       colors: {
         portfolio: {
-          background: "#ecece0ff", // fundo geral claro
-          hero: "#172d3a",         // HERO / área da foto
-          surface: "#000000",      // caixas neutras (about, footer)
-          card: "#e8efe19",         // cards de projetos (independente)
+          background: "#ecece0ff", 
+          hero: "#172d3a",         
+          surface: "#000000",     
+          card: "#e8efe19",  
           accent: "#7a8484",
           textLight: "#000000",
           textDark: "#ffffff",

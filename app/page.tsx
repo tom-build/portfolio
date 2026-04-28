@@ -7,16 +7,12 @@ export default function Home() {
   return (
     <main className="flex flex-col font-sans">
 
-      {/* ================= HERO ================= */}
       <section className="relative bg-portfolio-hero h-screen flex items-center justify-center">
 
-        {/* OVERLAY TRANSLÚCIDO */}
         <div className="absolute inset-0 bg-black/1"></div>
 
-        {/* GRADIENTE SUAVE */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/100 to-transparent"></div>
 
-        {/* CONTEÚDO */}
         <div className="relative z-10 max-w-6xl mx-auto flex justify-center">
           <div
             className="
@@ -67,7 +63,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= ABOUT ================= */}
       <section
         id="about"
         className="bg-portfolio-background px-6 py-10"
@@ -128,7 +123,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= PROJECTS ================= */}
       <section
         id="projetos"
         className="bg-portfolio-background px-6 py-16"
@@ -153,13 +147,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= FOOTER ================= */}
       <footer className="bg-portfolio-hero py-6 text-center">
         <p className="text-sm text-white/60">
           2026 © Desenvolvido por Erivelton Araújo
         </p>
       </footer>
-
     </main>
   );
 }

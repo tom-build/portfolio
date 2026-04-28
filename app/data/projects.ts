@@ -1,5 +1,3 @@
-// app/data/projects.ts
-
 export type Project = {
   title: string;
   description: string;
@@ -33,5 +31,4 @@ export const projects: Project[] = [
     github: "https://github.com/tomzudo/SistemaBancario-BancoMaven.git",
     live: null,
   },
-
 ];

@@ -30,7 +30,6 @@ export function ProjectCard({
         text-portfolio-textLight
       "
     >
-      {/* IMAGEM */}
       <div className=" relative h-80 w-full overflow-hidden">
         <img
           src={image}
@@ -43,11 +42,9 @@ export function ProjectCard({
           "
         />
 
-        {/* overlay sutil */}
         <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-nome" />
       </div>
 
-      {/* CONTEÚDO */}
       <div className="p-6 flex flex-col gap-4 flex-1">
         <h3 className="text-xl font-semibold">
           {title}
