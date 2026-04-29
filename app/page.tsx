@@ -132,7 +132,7 @@ export default function Home() {
             Projetos
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-1 gap-12">
             {projects.map((project) => (
               <ProjectCard
                 key={project.title}

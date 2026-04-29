@@ -17,32 +17,24 @@ export function ProjectCard({
     <div
       className="
         group
-        bg-portfolio-card
         backdrop-blur-md
         rounded-2xl
         overflow-hidden
-        flex flex-col
+        grid grid-cols-1 gap-8 sm:grid-cols-2
         border border-white/10
-        shadow-lg shadow-black/20
-        hover:-translate-y-1
-        hover:shadow-xl
         transition-all duration-300
         text-portfolio-textLight
       "
     >
-      <div className=" relative h-80 w-full overflow-hidden">
+      <div className="h-full w-full">
         <img
           src={image}
           alt={title}
           className="
-            h-90
-            object-cover
-            transition-transform duration-500
-            group-hover:scale-105
+            h-full
+            w-full
           "
         />
-
-        <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-nome" />
       </div>
 
       <div className="p-6 flex flex-col gap-4 flex-1">
@@ -50,7 +42,7 @@ export function ProjectCard({
           {title}
         </h3>
 
-        <p className="text-sm text-portfolio-grayish leading-relaxed">
+        <p className="text-lg text-portfolio-grayish leading-relaxed">
           {description}
         </p>
 
