@@ -18,7 +18,6 @@ export function ProjectCard({
       className="
         group
         backdrop-blur-md
-        rounded-2xl
         overflow-hidden
         grid grid-cols-1 gap-8 sm:grid-cols-2
         border border-white/10
