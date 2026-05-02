@@ -31,4 +31,11 @@ export const projects: Project[] = [
     github: "https://github.com/tomzudo/SistemaBancario-BancoMaven.git",
     live: null,
   },
+    {
+    title: "E-commerce [Zen Coffee]",
+    description: "O Zen Coffee é uma aplicação que simula um sistema administrativo de loja, permitindo o controle de produtos com uma interface moderna e um fluxo de autenticação funcional. O objetivo principal do projeto não foi complexidade extrema, mas sim consolidar fundamentos importantes como:",
+    image: "/images/zen.jpg",
+    github: "https://github.com/tom-build/Zen-Coffee.git",
+    live: null,
+  },
 ];
