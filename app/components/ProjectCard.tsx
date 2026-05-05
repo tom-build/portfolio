@@ -19,12 +19,12 @@ export function ProjectCard({
         group
         backdrop-blur-md
         overflow-hidden
-        border border-white/10
+        border border-black/10
         rounded-2xl
         transition-all duration-300
         text-portfolio-textLight
 
-        grid grid-cols-1 md:grid-cols-2
+        grid grid-cols-1 md:grid-cols-1
       "
     >
       <div className="w-full h-56 md:h-auto">
