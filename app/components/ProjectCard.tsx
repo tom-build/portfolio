@@ -19,29 +19,32 @@ export function ProjectCard({
         group
         backdrop-blur-md
         overflow-hidden
-        grid grid-cols-1 gap-8 sm:grid-cols-2
         border border-white/10
+        rounded-2xl
         transition-all duration-300
         text-portfolio-textLight
+
+        grid grid-cols-1 md:grid-cols-2
       "
     >
-      <div className="h-full w-full">
+      <div className="w-full h-56 md:h-auto">
         <img
           src={image}
           alt={title}
           className="
-            h-full
-            w-full
+            w-full h-full
+            object-cover
           "
         />
       </div>
 
-      <div className="p-6 flex flex-col gap-4 flex-1">
-        <h3 className="text-xl font-semibold">
+      <div className="p-4 md:p-6 flex flex-col gap-4">
+
+        <h3 className="text-lg md:text-xl font-semibold">
           {title}
         </h3>
 
-        <p className="text-lg text-portfolio-grayish leading-relaxed">
+        <p className="text-sm md:text-base text-portfolio-grayish leading-relaxed">
           {description}
         </p>
 
@@ -53,6 +56,7 @@ export function ProjectCard({
               px-4 py-2 rounded-lg
               bg-portfolio-accent
               text-white
+              text-sm md:text-base
               font-medium
               hover:opacity-90
               transition
@@ -69,6 +73,7 @@ export function ProjectCard({
                 px-4 py-2 rounded-lg
                 bg-portfolio-accent
                 text-white
+                text-sm md:text-base
                 font-medium
                 hover:opacity-90
                 transition
@@ -78,6 +83,7 @@ export function ProjectCard({
             </a>
           )}
         </div>
+
       </div>
     </div>
   );
