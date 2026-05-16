@@ -75,11 +75,9 @@ export default function Home() {
             ">
 
               <p className="text-sm md:text-base text-portfolio-grayish leading-relaxed">
-                Sempre tive grande interesse por tecnologia e iniciei minha jornada no desenvolvimento em 2024.
-                Atualmente, curso Análise e Desenvolvimento de Sistemas (ADS) e atuo como desenvolvedor freelancer,
-                buscando constantemente aprimorar minhas habilidades e construir soluções eficientes.
-                Desenvolvedor com experiência prática com desenvolvimento web, com foco em código limpo,
-                organização e boas práticas.
+                Desenvolvedor de software com experiência prática no desenvolvimento de aplicações full-stack utilizando 
+                TypeScript, Node.js, Java e Python. Possuo conhecimento em APIs REST, banco de dados relacionais 
+                e arquitetura em camadas. Desenvolvo projetos próprios com foco em organização, escalabilidade e boas práticas.
               </p>
             </div>
           </div>
