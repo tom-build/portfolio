@@ -75,9 +75,10 @@ export default function Home() {
             ">
 
               <p className="text-sm md:text-base text-portfolio-grayish leading-relaxed">
-                Desenvolvedor de software com experiência prática no desenvolvimento de aplicações full-stack utilizando 
-                TypeScript, Node.js, Java e Python. Possuo conhecimento em APIs REST, banco de dados relacionais 
-                e arquitetura em camadas. Desenvolvo projetos próprios com foco em organização, escalabilidade e boas práticas.
+                Desenvolvedor de software com experiência prática no desenvolvimento de aplicações eficientes e escaláveis utilizando Java,
+                TypeScript, Node.js e Python. Sólido domínio em arquitetura em camadas, construção de APIs RESTful, persistência de dados e
+                testes automatizados. Focado em aplicar boas práticas de engenharia de software, organização modular de código e otimização
+                da experiência do usuário para entregar soluções de alto impacto alinhadas aos objetivos de negócio. 
               </p>
             </div>
           </div>
