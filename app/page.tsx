@@ -38,7 +38,7 @@ export default function Home() {
             </p>
 
             <div className="flex gap-4 mt-4">
-              <a href="https://github.com/tomzudo" target="_blank">
+              <a href="https://github.com/tom-build" target="_blank">
                 <FaGithub className="text-white text-2xl" />
               </a>
 
